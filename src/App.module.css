@@ -1,0 +1,66 @@
+.app {
+  text-align: center;
+}
+
+.appHeader {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.todoList {
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #282c34;
+}
+
+.todoListItem {
+  padding: 10px;
+  color: antiquewhite;
+  text-align: left;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.todoListItemButton {
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: #282c34;
+  color: white;
+}
+
+.todoListItemInput {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: #282c34;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.innerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.highlight {
+  border: 2px solid yellow;
+}
